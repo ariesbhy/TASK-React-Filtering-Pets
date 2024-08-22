@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 function PetItem({ pet }) {
+  const [image, setImage] = useState(pet.image);
+  const handleClick = () => {};
   return (
     <div className="col-lg-4 col-md-8 col-sm-10">
       <div className="single-doctor">
